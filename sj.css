@@ -1,0 +1,113 @@
+#36454F.
+#7DF9FF 	
+
+.navbar {
+  background-color: #000;
+  size: 20px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 100px;
+}
+.cab {
+	background-color: #7DF9FF;
+}
+#NavBarNav {
+	background: #000;
+}
+.img {
+	width: 20px;
+	height: auto;
+	position: sticky;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next and previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fade animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  /* Reduce size of slideshow container for smaller screens */
+  .slideshow-container {
+    max-width: 500px;
+  }
+  
+  /* Reduce font size of prev and next buttons */
+  .prev, .next {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Reduce size of slideshow container even further for smallest screens */
+  .slideshow-container {
+    max-width: 300px;
+  }
+  
+  /* Reduce font size of prev and next buttons even further */
+  .prev, .next {
+    font-size: 12px;
+  }
+}
